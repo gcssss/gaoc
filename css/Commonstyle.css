@@ -1,0 +1,36 @@
+a,
+body,
+button,
+dd,
+div,
+dl,
+dt,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+img,
+input,
+li,
+ol,
+span,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: 0;
+  text-decoration: none;
+  font-family: microsoft yahei,Verdana,tahoma,simsun,arial,simsun,sans-serif; }
+
+input,
+button,
+select,
+textarea {
+  outline: none;
+  -webkit-appearance: none;
+  border-radius: 0; }
+
+/*# sourceMappingURL=Commonstyle.css.map */

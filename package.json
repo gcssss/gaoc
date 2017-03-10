@@ -1,0 +1,31 @@
+{
+  "name": "web20170303",
+  "version": "1.0.0",
+  "description": "这是一个gulp的测试程序",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gcssss/gaoc.git"
+  },
+  "keywords": [
+    "gulp"
+  ],
+  "author": "gaochong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gcssss/gaoc/issues"
+  },
+  "homepage": "https://github.com/gcssss/gaoc#readme",
+  "devDependencies": {
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-less": "^3.3.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.0.1"
+  }
+}

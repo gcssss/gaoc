@@ -1,0 +1,179 @@
+@charset "UTF-8";
+#footer {
+  width: 100%;
+  float: left;
+  clear: both;
+  background: url("../img/footer_bg.gif") repeat-x #fff;
+  padding-bottom: 10px; }
+  #footer .waper {
+    width: 1000px;
+    margin: 0 auto; }
+    #footer .waper .footer-top {
+      height: 105px; }
+      #footer .waper .footer-top .zp span {
+        background: url(../img/header.png)-283px -55px; }
+      #footer .waper .footer-top .fw span {
+        background: url(../img/header.png)-338px -55px; }
+      #footer .waper .footer-top .qt span {
+        background: url(../img/header.png)-395px -55px; }
+      #footer .waper .footer-top dd {
+        width: 320px;
+        float: left;
+        padding: 20px 0 25px 13px; }
+        #footer .waper .footer-top dd span {
+          width: 38px;
+          height: 45px;
+          float: left;
+          display: block;
+          margin: 0 12px 0 0; }
+        #footer .waper .footer-top dd h3 {
+          width: 240px;
+          float: left;
+          line-height: 15px;
+          padding: 3px 0 8px;
+          color: #fff;
+          font-size: 15px; }
+        #footer .waper .footer-top dd p {
+          width: 240px;
+          float: left;
+          margin: 0;
+          line-height: 18px;
+          color: #fff;
+          font-size: 12px; }
+          #footer .waper .footer-top dd p a {
+            color: brown; }
+    #footer .waper .foot-border {
+      width: 1000px;
+      float: left;
+      padding: 20px 0;
+      background: #fff; }
+      #footer .waper .foot-border .help-left {
+        width: 380px; }
+        #footer .waper .foot-border .help-left dt {
+          width: 100%;
+          float: left;
+          font-size: 14px;
+          border-bottom: 1px solid #e1e1e1;
+          padding: 0 0 5px;
+          margin: 0 0 10px;
+          color: #333;
+          font-family: "微软雅黑"; }
+        #footer .waper .foot-border .help-left dd {
+          width: 95px;
+          float: left; }
+          #footer .waper .foot-border .help-left dd a {
+            font-size: 12px;
+            color: #999;
+            text-decoration: none; }
+          #footer .waper .foot-border .help-left dd a:hover {
+            text-decoration: underline; }
+      #footer .waper .foot-border dl {
+        float: left; }
+      #footer .waper .foot-border .help-c {
+        margin: 0 0 0 25px; }
+        #footer .waper .foot-border .help-c dt {
+          width: 100%;
+          float: left;
+          font-size: 14px;
+          border-bottom: 1px solid #e1e1e1;
+          padding: 0 0 5px;
+          margin: 0 0 10px;
+          color: #333;
+          font-family: microsoft yahei,"微软雅黑"; }
+        #footer .waper .foot-border .help-c dd {
+          font-size: 12px;
+          color: #999; }
+          #footer .waper .foot-border .help-c dd a:hover {
+            text-decoration: underline; }
+      #footer .waper .foot-border .help-r {
+        width: 355px;
+        padding: 0;
+        float: right; }
+        #footer .waper .foot-border .help-r .weiin {
+          width: 355px;
+          height: 165px;
+          overflow: hidden;
+          background: url(../img/header.png) -178px -275px no-repeat;
+          position: relative;
+          color: #999; }
+        #footer .waper .foot-border .help-r .w1 {
+          width: 130px;
+          height: 42px;
+          position: absolute;
+          left: 1px;
+          bottom: 12px;
+          text-align: center;
+          line-height: 20px;
+          font-family: "微软雅黑"; }
+        #footer .waper .foot-border .help-r .w2 {
+          width: 130px;
+          height: 42px;
+          position: absolute;
+          left: 118px;
+          bottom: 12px;
+          text-align: center;
+          line-height: 20px;
+          font-family: "微软雅黑"; }
+        #footer .waper .foot-border .help-r .w3 {
+          width: 130px;
+          height: 42px;
+          position: absolute;
+          left: 235px;
+          bottom: 12px;
+          text-align: center;
+          line-height: 20px;
+          font-family: "微软雅黑"; }
+    #footer .waper .footer-nav {
+      width: 1000px;
+      float: left;
+      clear: both;
+      text-align: center;
+      padding: 20px 0 0 0; }
+      #footer .waper .footer-nav li {
+        display: inline;
+        padding: 0 20px; }
+        #footer .waper .footer-nav li a {
+          color: #333;
+          font-weight: bold; }
+        #footer .waper .footer-nav li a:hover {
+          text-decoration: underline; }
+    #footer .waper #copyright {
+      padding: 5px 0 25px 0;
+      color: #999;
+      width: 1000px;
+      float: left;
+      clear: both;
+      text-align: center; }
+    #footer .waper .footer-links {
+      width: 1000px;
+      height: 39px;
+      display: block;
+      clear: both;
+      padding: 0 35px; }
+      #footer .waper .footer-links li {
+        float: left;
+        width: 163px;
+        height: 34px;
+        overflow: hidden;
+        background: url(../img/header.png) no-repeat; }
+        #footer .waper .footer-links li a {
+          float: left;
+          height: 39px;
+          padding: 0 0 0 50px;
+          color: #000; }
+        #footer .waper .footer-links li a:hover {
+          text-decoration: underline; }
+      #footer .waper .footer-links .f1 {
+        background-position: -175px -128px; }
+      #footer .waper .footer-links .f2 {
+        background-position: -364px -130px; }
+      #footer .waper .footer-links .f3 {
+        background-position: -165px -183px; }
+      #footer .waper .footer-links .f4 {
+        background-position: -364px -183px; }
+      #footer .waper .footer-links .f5 {
+        background-position: -160px -234px; }
+      #footer .waper .footer-links .f6 {
+        background-position: -365px -232px; }
+
+/*# sourceMappingURL=footer.css.map */

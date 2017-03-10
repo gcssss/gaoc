@@ -1,0 +1,333 @@
+@charset "utf-8";
+$AllTheWidth: 100%;
+.top {
+        width: $AllTheWidth;
+        background-color: #fff;
+        float: left;
+        clear: both;
+        #topber {
+            width: $AllTheWidth;
+            background: #fff;
+        }
+        .wapper {
+            width: 1000px;
+            margin: 0 auto;
+            li {
+                float: right;
+                padding-right: 15px;
+                line-height: 32px;
+                a {
+                    color: #000;
+                }
+                a:hover {
+                    border-bottom: 1px solid #000000;
+                }
+            }
+        }
+        #header {
+            width: $AllTheWidth;
+            float: left;
+            background: url("../img/header-bg.gif") 0 bottom repeat-x #fff;
+            padding-bottom: 5px;
+            #wapper {
+                width: 1000px;
+                margin: 0 auto;
+                color: #elelel;
+                position: relative;
+                z-index: 9999;
+            }
+        }
+        .header_top {
+            width: $AllTheWidth;
+            height: 66px;
+            float: left;
+            clear: both;
+            background-color: #fff;
+        }
+        #logo {
+            width: 165px;
+            float: left;
+            margin-right: 73px;
+            height: 90px;
+            margin-top: -27px;
+            background: url(../img/header.png)no-repeat 0 -27px;
+            position: relative;
+            text-indent: -9999px;
+        }
+        .search {
+            width: 456px;
+            float: left;
+        }
+        .top-search {
+            width: 443px;
+            height: 27px;
+            overflow: hidden;
+            background: url("../img/header.png") no-repeat -144px 0;
+            padding: 0 0 0 13px;
+            margin-top: 10px;
+            display: block;
+            input {
+                width: 360px;
+                float: left;
+                border: none;
+                height: 27px;
+                line-height: 27px;
+                background: none;
+            }
+            button {
+                width: 77px;
+                float: left;
+                border: none;
+                background: none;
+                height: 28px;
+                overflow: hidden;
+                text-indent: -9999px;
+                cursor: pointer;
+            }
+        }
+        .keyword {
+            padding-left: 10px;
+            color: #999;
+            a {
+                font-size: 10px;
+                color: #999;
+            }
+            a:hover {
+                border-bottom: 1px solid #999;
+            }
+        }
+        .top-bags {
+            width: auto;
+            float: right;
+            background: url("../img/header.png") -515px -380px no-repeat;
+            line-height: 50px;
+            padding-left: 90px;
+            padding-top: 10px;
+            a {
+                color: #000;
+            }
+            a:hover {
+                color: #c00;
+                border-bottom: 1px solid #c00;
+            }
+        }
+        #nav {
+            width: 100%;
+            float: left;
+            clear: both;
+            height: 38px;
+            overflow: hidden;
+            .nav {
+                width: auto;
+                float: left;
+                li {
+                    height: 38px;
+                    float: left;
+                    display: block;
+                    line-height: 38px;
+                    padding-right: 5px;
+                    a {
+                        font-size: 14px;
+                        color: #FFFFFF;
+                        padding: 0 15px;
+                    }
+                    .nav_timebuy {
+                        height: 38px;
+                        line-height: 38px;
+                        background: url(../img/nav_timebuy.gif)repeat-x;
+                        font-size: 14px;
+                        text-align: center;
+                        color: #000;
+                        display: block;
+                    }
+                    a:hover {
+                        height: 38px;
+                        line-height: 38px;
+                        background: url(../img/nav_timebuy.gif)repeat-x;
+                        font-size: 14px;
+                        text-align: center;
+                        color: #000;
+                        display: block;
+                    }
+                }
+            }
+            .notice {
+                width: 240px;
+                float: right;
+                color: #000;
+                padding: 0 0 0 22px;
+                height: 38px;
+                background: url("../img/header.png") -580px -44px no-repeat;
+                #notice {
+                    text-align: left;
+                    ul {
+                        width: 230px;
+                        li {
+                            line-height: 38px;
+                            background: none;
+                            a {
+                                color: #fff;
+                            }
+                            a：hover {
+                                border-bottom: 1px solid #fff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .subnav {
+            height: 38px;
+            width: 100%;
+            clear: both;
+            line-height: 31px;
+            ul {
+                padding: 6px 0 0 15px;
+                li {
+                    float: left;
+                    background: url(../img/line.gif)no-repeat right center;
+                    padding: 0;
+                    position: relative;
+                    a {
+                        line-height: 29px;
+                        padding: 0 18px;
+                        color: #666;
+                    }
+                    a:hover {
+                        display: inline-block;
+                        color: #CC0000;
+                        border: 1px solid #c1c1c1;
+                        text-decoration: underline;
+                        border-bottom-color: #fff;
+                        background-color: #fff;
+                        margin-left: -2px;
+                    }
+                    .sub_nav {
+                        display: none;
+                        width: 666px;
+                        float: left;
+                        position: absolute;
+                        left: -2px;
+                        top: 32px;
+                        border-top: 0;
+                        background-color: #fff;
+                    }
+                    #sub_navleft {
+                        padding: 0 20px;
+                        width: 339px;
+                        float: left;
+                        dl {
+                            width: 100%;
+                            float: left;
+                            clear: both;
+                            border-bottom: 1px solid #e1e1e1;
+                            dt {
+                                color: #333;
+                                padding: 0 8px;
+                                a {
+                                    color: #333;
+                                    width: 100%;
+                                    border: 0;
+                                    margin: 0;
+                                    padding: 0;
+                                }
+                                a:hover {
+                                    border: none;
+                                    line-height: none;
+                                    color: #333;
+                                    text-decoration: underline;
+                                }
+                            }
+                            dd {
+                                width: auto;
+                                float: left;
+                                padding: 0 8px;
+                                font-size: 12px;
+                                a {
+                                    border: 0;
+                                    margin: 0;
+                                    padding: 0;
+                                    color: #999;
+                                }
+                                a:hover {
+                                    border: 0;
+                                    line-height: none;
+                                    color: #999;
+                                }
+                            }
+                        }
+                    }
+                    #sub_navright {
+                        width: 230px;
+                        float: left;
+                        padding: 0 0 0 20px;
+                        .sub_navright_hotbrand {
+                            width: 100%;
+                            padding: 10px 0;
+                            border-bottom: 1px solid #e1e1e1;
+                            float: left;
+                            clear: both;
+                            dt {
+                                color: #333333;
+                                a {
+                                    color: #333;
+                                    width: 100%;
+                                    border: 0;
+                                    margin: 0;
+                                    padding: 0;
+                                }
+                                a:hover {
+                                    border: none;
+                                    line-height: none;
+                                    color: #333;
+                                    text-decoration: underline;
+                                }
+                            }
+                            dd {
+                                line-height: 20px;
+                                width: 110px;
+                                float: left;
+                                padding-right: 5px;
+                                a {
+                                    line-height: 20px;
+                                    color: #333;
+                                    width: 100%;
+                                    border: 0;
+                                    margin: 0;
+                                    padding: 0;
+                                }
+                                a:hover {
+                                    border: none;
+                                    line-height: none;
+                                    color: #333;
+                                    text-decoration: underline;
+                                }
+                            }
+                        }
+                        .sub_navright_hotsales {
+                            width: 100%;
+                            padding: 10px 0;
+                            float: left;
+                            clear: both;
+                            dt {
+                                color: #333333;
+                                a {
+                                    color: #333;
+                                    width: 100%;
+                                    border: 0;
+                                    margin: 0;
+                                    padding: 0;
+                                }
+                                a:hover {
+                                    border: none;
+                                    line-height: none;
+                                    color: #333;
+                                    text-decoration: underline;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
